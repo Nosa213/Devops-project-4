@@ -43,3 +43,7 @@ the use of a Jump box/Bastion host to access our Web Servers.
 <p>Configure Jenkins build job to save your repository content every time you change it:</p>
 
 <p>Create a new Freestyle project ansible in Jenkins and point it to your ‘ansible-config-mgt’ repository.</p>
+
+
+![image](https://github.com/Nosa213/Devops-project-4/assets/125190958/ee8cdd9a-0d74-4a61-a8c3-ba9ae1686e9e)
+
