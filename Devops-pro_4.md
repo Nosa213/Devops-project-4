@@ -47,3 +47,25 @@ the use of a Jump box/Bastion host to access our Web Servers.
 
 ![image](https://github.com/Nosa213/Devops-project-4/assets/125190958/ee8cdd9a-0d74-4a61-a8c3-ba9ae1686e9e)
 
+<p>Configure Webhook in GitHub and set webhook to trigger ansible build.</p>
+
+![image](https://github.com/Nosa213/Devops-project-4/assets/125190958/98444fcd-9069-4967-be03-41d3372addfd)
+
+<p>Configure a Post-build job to save all (**) files, like you did it in Project 9.</p>
+
+## Post-build Actions
+
+![image](https://github.com/Nosa213/Devops-project-4/assets/125190958/542bc4d1-f294-4384-b64e-384e887c1e5d)
+
+Test your setup by making some change in README.MD file in master branch and make sure that builds starts automatically and Jenkins saves the files
+
+![image](https://github.com/Nosa213/Devops-project-4/assets/125190958/2f1e2fec-d03b-4a3b-8384-106c9be27938)
+
+![image](https://github.com/Nosa213/Devops-project-4/assets/125190958/9ff4d81a-cbbf-4df7-afe3-5ac58009f040)
+
+
+Confirm if Jenkins saves the files (build artifacts) in following folder:
+
+```
+ls /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/
+```
